@@ -1,0 +1,217 @@
+@media screen and (max-width: 770px) {
+    .header {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .menu .item {
+        padding: 10px 20px;
+    }
+
+    .logo img{
+        opacity: 0;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    #fotobio{
+        position: relative;
+        top: 200px;
+        right: 250px;
+        width: 300px;
+        padding: 20px;
+    }
+
+}
+
+/*------------------------Menu Navegacion-----------------------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2A9D8F;
+    background-image: url(https://cdn2.yamaha-motor.eu/prod/product-assets/2022/YZF700R7/2022-Yamaha-YZF700R7-EU-Icon_Blue_-Action-005-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+    background-color: #264653;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 60px;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.2s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.item{
+    margin: 0 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+.header .menu li{
+    display: inline;
+    padding: 0 20px;
+}
+
+.header .menu li:hover{
+    transform: scale(1.1);
+}
+
+.header .menu a{
+    font-size: 800;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.header .menu a:hover{
+    color: #E9C46A;
+}
+
+/*------------------------Biografia-----------------------------*/
+
+#bodybio{
+    background-image: none;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+
+
+#biotexto{
+    box-sizing: border-box;
+    column-count: 2;
+    column-gap: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    font-size:20px;
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.imgcont{
+    text-align: center;
+}
+
+#fotobio{
+padding: 20px;
+}
+
+/*------------------------Contactos-----------------------------*/
+
+.contenedorformulario{
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.formulario{
+    padding: 70px;
+    background-color: #264653;  
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 5%;
+    box-shadow: 0 0 8px grey;
+}
+
+.caja input{
+    flex: 1;
+}
+
+.formulario p{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto;
+    text-decoration: underline;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*------------------------Portfolio-----------------------------*/
+
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+.porttodo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.portodo img{
+    flex: 33%;
+    padding: 5px;
+}
+
+
+.portvideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+article iframe{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
